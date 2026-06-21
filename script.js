@@ -1,0 +1,1 @@
+const txt='Creative Web Designer & Frontend Developer';let i=0,e=document.getElementById('typing');(function t(){if(i<txt.length){e.innerHTML+=txt.charAt(i++);setTimeout(t,40)}})();document.getElementById('themeToggle').onclick=()=>document.body.classList.toggle('light');
